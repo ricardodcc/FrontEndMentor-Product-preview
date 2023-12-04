@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Rubik:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p, div{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.product-review{
+    background-color: white;
+    box-shadow: 1px 1px 20px -24px black;
+    border-radius: 12px;
+    display: flex;
+    margin: 150px auto;
+    width: 50%;
+    height: 650px;
+}
+
+img{
+    width: 50%;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.product-info{
+    text-align: center;
+    color: rgb(153, 153, 153);
+    padding: 40px 50px;
+}
+
+.product-info p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    border-color: transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    width: 250px;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    color: black;
+    margin-right: 40px;
+    margin-bottom: ;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: line-through;
+} 
+
+p.new-prices{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    color: hsl(158, 36%, 37%);
+    font-size: 36px;
+}
+
+
+
+
+
