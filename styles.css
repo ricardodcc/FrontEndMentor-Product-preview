@@ -20,7 +20,7 @@ body{
     display: flex;
     margin: 150px auto;
     width: 50%;
-    height: 650px;
+    height: 550px;
 }
 
 img{
@@ -33,6 +33,7 @@ img{
     text-align: center;
     color: rgb(153, 153, 153);
     padding: 40px 50px;
+    width: 50%;
 }
 
 .product-info p{
@@ -51,8 +52,19 @@ button{
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    width: 250px;
     align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 68px;
+    gap: 20px;
+}
+
+button img{
+    width: fit-content;
+}
+
+button p{
+
 }
 
 h2{
