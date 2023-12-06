@@ -11,16 +11,34 @@ h1, h2, h3, p, div{
 
 body{
     background-color: hsl(30, 38%, 92%);
+    
+}
+
+h1, .new-price{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h1{
+    margin-right: 36px;
+}
+
+h2, .prices, .add-cart-button p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.product-review, .product-info, .prices, .add-cart-button{
+    display: flex;
 }
 
 .product-review{
     background-color: white;
     box-shadow: 0px 0px 15px -10px black;
     border-radius: 16px;
-    display: flex;
     flex-wrap: wrap;
-    /* flex-wrap: nowrap; by default*/
-    margin: 100px auto;
+    margin: 135px auto;
     max-width: 810px;
 }
 
@@ -28,12 +46,9 @@ body{
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     max-height: 600px;
-    /* min-width: 50%; */
 }
 
 .product-info{
-    /* align-items: flex-start; by default*/
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 45px;
@@ -41,29 +56,17 @@ body{
 }
 
 h2, .prices{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
-h1{
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: 40px;
-}
-
 .prices{
-    display: flex;
-    /* flex-wrap: nowrap; by default*/
     align-items: center;
     gap: 28px;
 }
 
 .new-price{
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
     color: hsl(158, 36%, 37%);
     font-size: 36px;
 }
@@ -84,8 +87,6 @@ p{
     background-color: hsl(158, 36%, 37%);
     border-radius: 12px;
     border-color: transparent;
-    display: flex;
-    /* flex-wrap: nowrap; by default */
     justify-content: center;
     align-items: center;
     min-height: 60px;
@@ -94,8 +95,6 @@ p{
 
 .add-cart-button p{
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
     font-size: 16px;
 }
 
@@ -103,5 +102,16 @@ p{
     width: 20px;
 }
 
+footer{
+    text-align: center;
+}
+
+a:hover{
+    color: hsl(158, 79%, 35%);
+}
+
+a:link{
+    color: hsl(158, 29%, 16%);
+}
 
 
