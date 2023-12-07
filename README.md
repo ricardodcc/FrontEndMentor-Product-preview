@@ -19,8 +19,8 @@ This is a solution to the [Product preview card component](https://www.frontendm
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/qr-card-component-using-only-css-and-html-hh_RXlkbQd)
-- Live Site URL: (https://ricardodcc.github.io/FrontEndMentor-QR-card-challenge/)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-components-html5-css-flexbox-used-vgPRrcAtpD)
+- Live Site URL: (https://ricardodcc.github.io/FrontEndMentor-Product-preview/)
 
 ## My process
 I started this mini project by coding all the HTML needed and then adding the CSS to get a similar Porduct Review component that is at the solution of this challenge 
